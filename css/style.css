@@ -11,6 +11,7 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
 }
+
 header{
     background: rgba(255, 144, 14, 0.10);
     padding:50px 240px ;
@@ -40,3 +41,35 @@ nav ul li a{
     margin-left: 2rem;
     
 }
+/*********************************************
+            banner section css
+**********************************************/
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bannerr-title{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.banenr-discription{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+.banner-content a button{
+    border-style: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #FF900E;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 3.12rem;
+}
+.banner img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
