@@ -7,6 +7,11 @@
   font-weight: <weight>;
   font-style: normal;
 } */
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 *{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -14,7 +19,7 @@
 
 header{
     background: rgba(255, 144, 14, 0.10);
-    padding:50px 240px ;
+    padding:50px 0px ;
 }
 nav{
     display: flex;
@@ -61,23 +66,61 @@ nav ul li a{
     line-height: 1.625rem;
     margin: 2rem 0;
 }
-.banner-content a button{
+.banner-content a button, .tems-right a button{
     border-style: none;
     font-size: 1.25rem;
     font-weight: 600;
     background-color: #FF900E;
     padding: 1.2rem 1.5rem;
-    margin-bottom: 3.12rem;
     border-radius: .5rem;
     color: #fff;
+}
+.banner-content a button{
+    margin-bottom: 3.12rem;
+    
 }
 .banner img{
     display: flex;
     justify-content: center;
     width: 100%;
 } 
-
-
+/*********************************************
+            teams section css
+**********************************************/
+.tems{
+    display: flex;
+    margin: 3.31rem 3.5rem;
+    align-items: center;
+}
+.tems-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.tems-right{
+    padding: 0  4.56rem;
+}
+.tems-right h3{
+    font-size: 2.8125rem;
+    font-weight: 500;
+    color: #727272;
+    margin: 0;
+}
+.black{
+    color: #131313;
+    font-weight: 700;
+}
+.orange{
+    color: #FF900E;
+    font-weight: 700;
+}
+.tems-right p{
+color: #727272;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem;
+margin: 2rem 0;
+}
 
 
 
