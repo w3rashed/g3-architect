@@ -121,10 +121,50 @@ font-weight: 400;
 line-height: 1.625rem;
 margin: 2rem 0;
 }
+/*********************************************
+            teams section css
+**********************************************/
+/*********************************************
+            facts section css
+**********************************************/
+.facts-tt{
+    width: 40%;
+}
+.facts-tt h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+.facts-tt p{
+    color: #727272;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem;
+margin: 1.5rem 0 6.2rem 0;
+}
+.facts-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 6.26rem 3.13rem 1126rem 3.13rem;
+}
+.card{
+    border: 1px solid #FF900E;
+    text-align: center;
+    border-radius:0.5rem ;
+    padding: 2.87rem;
+}
+.card h2{
+color: #424242;
+font-size: 2.8125rem;
+font-weight: 600;
+margin: .62rem 0 .31rem 0;
+}
 
-
-
-
+.card p{
+color: #727272;
+font-size: 1.25rem;
+font-weight: 600;
+}
 
 /*********************************************
      responsive style  css for small device
@@ -135,7 +175,7 @@ margin: 2rem 0;
     header{
         padding: 1rem;
     }
-    nav, .tems {
+    nav, .tems, .facts-info{
         flex-direction: column;
     }
 
@@ -159,6 +199,14 @@ margin: 2rem 0;
     .tems {
         margin: 2rem 0;
     }
+    /* facts */
+    .facts-tt{
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .card{
+        margin: 1rem 0;
+    }
 }
 /*********************************************
  responsive style  css for tablet/medium device
@@ -167,7 +215,7 @@ margin: 2rem 0;
     header{
         padding: 3rem;
     } 
-    nav, .tems{
+    nav, .tems, .facts-info{
         flex-direction: column;
     }
     nav ul li a{
@@ -187,5 +235,13 @@ margin: 2rem 0;
     }
     .tems {
         margin: 2rem 0;
+    }
+    /* facts */
+    .facts-tt{
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .card{
+        margin: 1rem 0;
     }
 }
